@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6a90173-2701-4236-b860-6ebc1244bd8b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/log/apilog.log" afterPath="$PROJECT_DIR$/log/apilog.log" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
     </list>
@@ -37,21 +36,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExcelTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExcelTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1891">
-              <caret line="78" column="80" lean-forward="false" selection-start-line="78" selection-start-column="80" selection-end-line="78" selection-end-column="80" />
+            <state relative-caret-position="651">
+              <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GetApiTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GetApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="372">
+              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/qa/report/ExtentTestNGReporterListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/util/TestUtil.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java" />
       </list>
     </option>
   </component>
@@ -560,7 +559,7 @@
       <updated>1599956837124</updated>
       <workItem from="1599956843207" duration="25194000" />
       <workItem from="1600143728586" duration="43000" />
-      <workItem from="1600144053361" duration="2601000" />
+      <workItem from="1600144053361" duration="3272000" />
     </task>
     <servers />
   </component>
@@ -597,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27838000" />
+    <option name="totallyTimeSpent" value="28509000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -781,18 +780,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1891">
-          <caret line="78" column="80" lean-forward="false" selection-start-line="78" selection-start-column="80" selection-end-line="78" selection-end-column="80" />
+        <state relative-caret-position="372">
+          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/GetApiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qa/tests/ExcelTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="651">
+          <caret line="38" column="62" lean-forward="false" selection-start-line="38" selection-start-column="62" selection-end-line="38" selection-end-column="62" />
           <folding />
         </state>
       </provider>

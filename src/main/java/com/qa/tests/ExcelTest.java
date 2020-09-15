@@ -36,6 +36,7 @@ public class ExcelTest extends TestBase {
         Header.put("Content-Type","application/json");
         host = prop.getProperty("HOST");
         testCaseExcel=prop.getProperty("testCaseData");
+        Log.info("-----------测试git触发Jenkins自动构建------------");
     }
 
     @DataProvider(name = "post")

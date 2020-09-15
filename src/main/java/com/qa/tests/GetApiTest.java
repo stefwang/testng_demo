@@ -31,7 +31,7 @@ public class GetApiTest extends TestBase{
         testBase = new TestBase();
         host = prop.getProperty("HOST");
         url = host + "/api/users";
-        Log.info("测试git触发Jenkins自动构建");
+        Log.info("-----------测试git触发Jenkins自动构建------------");
     }
 
     @Test
