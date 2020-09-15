@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="test" duration-ms="21205" started-at="2020-09-15T04:36:26Z" finished-at="2020-09-15T04:36:47Z">
+  <suite name="test" duration-ms="10758" started-at="2020-09-15T08:42:56Z" finished-at="2020-09-15T08:43:07Z">
     <groups>
     </groups>
-    <test name="项目1" duration-ms="7865" started-at="2020-09-15T04:36:26Z" finished-at="2020-09-15T04:36:33Z">
+    <test name="项目1" duration-ms="4999" started-at="2020-09-15T08:42:56Z" finished-at="2020-09-15T08:43:01Z">
       <class name="com.qa.tests.ExcelTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="setUp" is-config="true" duration-ms="23" started-at="2020-09-15T12:36:26Z" finished-at="2020-09-15T12:36:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="setUp" is-config="true" duration-ms="31" started-at="2020-09-15T16:42:56Z" finished-at="2020-09-15T16:42:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="postApi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="postApi" duration-ms="2943" started-at="2020-09-15T12:36:26Z" data-provider="post" finished-at="2020-09-15T12:36:29Z">
+        <test-method status="PASS" signature="postApi(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="postApi" duration-ms="3119" started-at="2020-09-15T16:42:57Z" data-provider="post" finished-at="2020-09-15T16:43:00Z">
           <params>
             <param index="0">
               <value>
@@ -32,7 +32,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postApi -->
-        <test-method status="PASS" signature="getApi(java.lang.String)[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="getApi" duration-ms="4187" started-at="2020-09-15T12:36:29Z" data-provider="get" finished-at="2020-09-15T12:36:33Z">
+        <test-method status="PASS" signature="getApi(java.lang.String)[pri:0, instance:com.qa.tests.ExcelTest@59e84876]" name="getApi" duration-ms="1100" started-at="2020-09-15T16:43:00Z" data-provider="get" finished-at="2020-09-15T16:43:01Z">
           <params>
             <param index="0">
               <value>
@@ -45,17 +45,17 @@
         </test-method> <!-- getApi -->
       </class> <!-- com.qa.tests.ExcelTest -->
     </test> <!-- 项目1 -->
-    <test name="项目2" duration-ms="13261" started-at="2020-09-15T04:36:33Z" finished-at="2020-09-15T04:36:47Z">
+    <test name="项目2" duration-ms="5681" started-at="2020-09-15T08:43:01Z" finished-at="2020-09-15T08:43:07Z">
       <class name="com.qa.tests.GetApiTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="1" started-at="2020-09-15T12:36:33Z" finished-at="2020-09-15T12:36:33Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="setUp" is-config="true" duration-ms="1" started-at="2020-09-15T16:43:01Z" finished-at="2020-09-15T16:43:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getAPITest()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="getAPITest" duration-ms="1749" started-at="2020-09-15T12:36:33Z" finished-at="2020-09-15T12:36:35Z">
+        <test-method status="PASS" signature="getAPITest()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="getAPITest" duration-ms="3538" started-at="2020-09-15T16:43:01Z" finished-at="2020-09-15T16:43:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getAPITest -->
-        <test-method status="PASS" signature="postAPITest()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="postAPITest" duration-ms="11510" started-at="2020-09-15T12:36:35Z" finished-at="2020-09-15T12:36:47Z">
+        <test-method status="PASS" signature="postAPITest()[pri:0, instance:com.qa.tests.GetApiTest@3a82f6ef]" name="postAPITest" duration-ms="2139" started-at="2020-09-15T16:43:05Z" finished-at="2020-09-15T16:43:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postAPITest -->

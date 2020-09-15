@@ -62,8 +62,6 @@ public class ExcelTest extends TestBase {
         JSONObject responseJson = restClient.getResponseJson(closeableHttpResponse);
         String n = TestUtil.getValueByJPath(responseJson, "name");
         String j = TestUtil.getValueByJPath(responseJson, "job");
-        Log.info("执行JSON解析，解析的内容是 " + n + " " + j);
-        Log.info("接口内容响应断言");
         Assert.assertEquals(n, "Nicole","name is not same");
         Assert.assertEquals(j, "HR","job is not same");
         Log.info("用例执行结束...");
@@ -79,7 +77,6 @@ public class ExcelTest extends TestBase {
         Assert.assertEquals(statusCode, RESPONSE_STATUS_CODE_200, "response status code is not 200");
         JSONObject responseJson = restClient.getResponseJson(closeableHttpResponse);
         String s = TestUtil.getValueByJPath(responseJson, "data[0]/first_name");
-        Log.info("执行JSON解析，解析的内容是 " + s);
         Assert.assertEquals(s, "George", "first name is not George");
         Log.info("用例执行结束...");
     }

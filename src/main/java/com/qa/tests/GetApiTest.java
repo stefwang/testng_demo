@@ -30,9 +30,8 @@ public class GetApiTest extends TestBase{
     public void setUp() {
         testBase = new TestBase();
         host = prop.getProperty("HOST");
-        Log.info("测试服务器地址为："+ host.toString());
         url = host + "/api/users";
-        Log.info("当前测试接口的完整地址为："+url.toString());
+        Log.info("测试git触发Jenkins自动构建");
     }
 
     @Test
@@ -44,8 +43,6 @@ public class GetApiTest extends TestBase{
         Assert.assertEquals(statusCode,RESPONSE_STATUS_CODE_200, "response status code is not 200");
         JSONObject responseJson = restClient.getResponseJson(closeableHttpResponse);
         String s = TestUtil.getValueByJPath(responseJson,"data[0]/first_name");
-        Log.info("执行JSON解析，解析的内容是 " + s);
-        Log.info("接口内容响应断言");
         Assert.assertEquals(s, "George","first name is not George");
         Log.info("用例执行结束...");
     }
@@ -64,8 +61,6 @@ public class GetApiTest extends TestBase{
         JSONObject responseJson = restClient.getResponseJson(closeableHttpResponse);
         String name = TestUtil.getValueByJPath(responseJson, "name");
         String job = TestUtil.getValueByJPath(responseJson, "job");
-        Log.info("执行JSON解析，解析的内容是 " + name + " " + job);
-        Log.info("接口内容响应断言");
         Assert.assertEquals(name, "Nicole","name is not same");
         Assert.assertEquals(job, "HR","job is not same");
         Log.info("用例执行结束...");
