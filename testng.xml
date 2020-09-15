@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="test" verbose="1" preserve-order="true" parallel="false">
+    <test name="项目1">
+        <classes>
+            <class name="com.qa.tests.ExcelTest">
+                <methods>
+                    <include name="postApi"></include>
+                    <include name="getApi"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="项目2">
+        <classes>
+            <class name="com.qa.tests.GetApiTest">
+                <methods>
+                    <include name="getAPITest"></include>
+                    <include name="postAPITest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <listeners>
+        <listener class-name="com.qa.report.ExtentTestNGReporterListener"></listener>
+    </listeners>
+</suite>
